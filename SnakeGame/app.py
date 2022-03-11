@@ -10,7 +10,7 @@ class Snake():
         self.color = (17, 24, 47)
         # Special thanks to YouTubers Mini - Cafetos and Knivens Beast for raising this issue!
         # Code adjustment courtesy of YouTuber Elija de Hoog
-        self.score = 0
+        self.points = 0
 
     def get_head_position(self):
         return self.positions[0]
@@ -36,7 +36,7 @@ class Snake():
         self.length = 1
         self.positions = [((screen_width/2), (screen_height/2))]
         self.direction = random.choice([up, down, left, right])
-        self.score = 0
+        self.points = 0
 
     def draw(self,surface):
         for p in self.positions:
@@ -117,12 +117,12 @@ def main():
         snake.move()
         if snake.get_head_position() == food.position:
             snake.length += 1
-            snake.score += 1
+            snake.points += 1
             food.randomize_position()
         snake.draw(surface)
         food.draw(surface)
         screen.blit(surface, (0,0))
-        text = myfont.render("Score {0}".format(snake.score), 1, (0,0,0))
+        text = myfont.render("points {0}".format(snake.points), 1, (0,0,0))
         screen.blit(text, (5,10))
         pygame.display.update()
 
