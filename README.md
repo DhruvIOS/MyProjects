@@ -4,7 +4,7 @@
 This is all the projects i made from scratchs / or by watching tutorial 
 
 
-![Logo](https://cdn.discordapp.com/attachments/931996787953270843/951659831327080459/Coding.jpg)
+![Logo](https://cdn.discordapp.com/attachments/931996787953270843/953468215659475024/C9826840-FB12-4131-88F3-10BFE84AC081.jpg)
 
 
 ## 🚀 About Me
