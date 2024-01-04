@@ -165,7 +165,7 @@ def logedIn():
     userIn.geometry('425x485+700+300')
     userIn.grid_columnconfigure((0,1), weight=1)
 
-    welcome = Label(userIn, text=f"Welcome {loggedInUser}", fg='white', bg='black')
+    welcome = Label(userIn, text=f"Welcome {loggedInUser}", fg='black', bg='white')
     welcome.place(x=170 ,y=0)
     welcome.config(font=('Helvatical bold',15))
 
@@ -328,7 +328,7 @@ def login():
 
 root.title('Login')
 
-lbl = Label(root, text="LOGIN SYSTEM", fg='white', bg='black')
+lbl = Label(root, text="LOGIN SYSTEM", fg='black', bg='white')
 
 
 

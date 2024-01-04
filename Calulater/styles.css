@@ -1,0 +1,232 @@
+body {
+  margin: 0px;
+  padding: 0px;
+
+  background-color: #2d2d30;
+}
+
+/* .midBox{
+    margin: auto;
+    width: 50%;
+
+    background-color: aquamarine;
+    padding: 10px;
+} */
+
+.button {
+  background-color:	#2d2d30;
+  color: white;
+  border: 1px solid white;
+  padding: 30px;
+
+  width: 100px;
+}
+
+.button:hover{
+    background-color: 	#1e1e1e;
+    cursor: pointer;
+}
+
+.text {
+    text-align: end;
+    width: 386px;
+    margin-left: 243px;
+    background-color: #252526;
+    padding-top: 100px;
+    padding: 14px;
+    color: white;
+
+}
+
+.math {
+  background-color: orange;
+}
+
+.resie {
+  height: 97px;
+}
+
+.container {
+  text-align: center;
+  width: 900px;
+  height: 900px;
+
+  margin-left: 254px;
+  border: 7px solid #3e3e42;
+  padding-top: 100px;
+}
+
+.GridContainer {
+  display: grid;
+  grid-template-columns: repeat(10, 4fr);
+  gap: 50px;
+  grid-auto-rows: minmax(100px, auto);
+  text-align: center;
+  margin-left: 88px;
+  padding: 0px;
+}
+
+.seven {
+  grid-column: 3 / 7;
+  grid-row: 1;
+
+  margin-top: 5px;
+
+  background-color: #3e3e42;
+}
+
+.four {
+  grid-column: 3 / 7;
+  grid-row: 2;
+
+  margin-top: -43px;
+
+  background-color: #3e3e42;
+
+  height: 97px;
+}
+
+.one {
+  grid-column: 3 / 10;
+  grid-row: 3;
+
+  margin-top: -88px;
+
+  background-color: #3e3e42;
+
+  height: 97px;
+}
+
+.dec{
+    grid-column: 6 / 10;
+    grid-row: 4;
+  
+    margin-top: -132px;
+  
+    background-color: #3e3e42;
+  
+    height: 97px;
+
+    margin-left: -26px;
+    
+
+    /* width: 50px; */
+
+}
+
+.zero{
+    grid-column: 3 / 10;
+    grid-row: 4;
+  
+    margin-top: -132px;
+  
+    background-color: #3e3e42;
+  
+    height: 97px;
+
+    /* margin-left: -26px; */
+    
+
+    width: 204px;
+
+}
+
+
+.two {
+  grid-column: 4 / 10;
+  grid-row: 3;
+
+  margin-top: -88px;
+
+  background-color: #3e3e42;
+
+  height: 97px;
+
+  margin-left: 26px;
+}
+
+.three{
+    grid-column: 4 / 10;
+    grid-row: 3;
+  
+    margin-top: -88px;
+  
+    background-color: #3e3e42;
+  
+    height: 97px;
+  
+    margin-left: 131px;
+
+}
+
+.five {
+  grid-column: 4 / 7;
+  grid-row: 2;
+
+  margin-top: -43px;
+
+  background-color: #3e3e42;
+
+  height: 97px;
+
+  margin-left: 27px;
+}
+
+.six {
+  grid-column: 5 / 10;
+  grid-row: 2;
+
+  margin-top: -43px;
+
+  background-color: #3e3e42;
+
+  height: 97px;
+
+  margin-left: 53px;
+}
+
+.eight {
+  grid-column: 4 / 7;
+  grid-row: 1;
+
+  margin-top: 5px;
+  margin-left: 27px;
+
+  background-color: #3e3e42;
+}
+
+.nine {
+  grid-column: 5 / 9;
+  grid-row: 1;
+
+  margin-top: 5px;
+  margin-left: 53px;
+
+  background-color: #3e3e42;
+}
+.mutiply {
+  grid-column: 7 / 7;
+  grid-row: 1;
+  margin-right: -34px;
+  margin-top: 5px;
+}
+
+.minus {
+  grid-column: 7 / 7;
+  grid-row: 2;
+  margin-right: 10px;
+  margin-top: -43px;
+}
+.plus {
+  grid-column: 7 / 7;
+  grid-row: 3;
+  margin-right: 10px;
+  margin-top: -88px;
+}
+
+.equal {
+  grid-column: 7 / 7;
+  grid-row: 4;
+  margin-right: 10px;
+  margin-top: -132px;
+}
